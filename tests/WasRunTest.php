@@ -1,19 +1,20 @@
 <?php
+
 namespace tests;
+use src\classParts\WasRun;
+use tests\TestCaseTest;
 
-use classParts\WasRun;
+require 'core/config/bootstrap.php';
 
-require_once '/Users/ryumirr/Projects/xUnitFramework/classParts/WasRun.php';
-final class WasRunTest
+final class WasRunTest extends TestCaseTest
 {
     static function executeTests()
     {
         $WasRun = new WasRun();
         print $WasRun->wasRun;
-        $WasRun->testMethod();
+        $WasRun->setUp();
+        $WasRun->testMethod(2222);
         print $WasRun->wasRun;
-
-        $WasRun->run($WasRun);
     }
 
     public function test()
