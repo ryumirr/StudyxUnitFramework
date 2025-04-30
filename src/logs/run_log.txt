@@ -1,0 +1,7 @@
+8383868386
+83868386Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Start-------
+Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Finished-------
+Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Start-------
+Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Finished-------
+Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Start-------
+Class Name: tests\AppTestCaseTest, Method Name: test_Run(), Messages: Finished-------
