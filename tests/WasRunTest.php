@@ -2,11 +2,11 @@
 
 namespace tests;
 use src\classParts\WasRun;
-use tests\TestCaseTest;
+use tests\AppTestCaseTest;
 
 require 'core/config/bootstrap.php';
 
-final class WasRunTest extends TestCaseTest
+final class WasRunTest extends AppTestCaseTest
 {
     static function executeTests()
     {

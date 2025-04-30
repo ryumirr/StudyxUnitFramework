@@ -1,11 +1,9 @@
 <?php
 
 namespace src\classParts;
-use src\classParts\TestCase;
+use src\classParts\AppTestCase;
 
-// require_once '/Users/ryumirr/Projects/xUnitFramework/classParts/TestCase.php';
-
-final class WasRun extends TestCase
+final class WasRun extends AppTestCase
 {
     public $wasRun;
     public $wasSetUp;
